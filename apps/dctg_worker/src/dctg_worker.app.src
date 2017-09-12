@@ -1,0 +1,12 @@
+{application, dctg_worker,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { dctg_worker_app, []}},
+  {env, []}
+ ]}.

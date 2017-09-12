@@ -1,0 +1,13 @@
+{application, dctg,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  emysql
+                 ]},
+  {mod, { dctg_app, []}},
+  {env, []}
+ ]}.

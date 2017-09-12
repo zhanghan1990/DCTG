@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, dctg_web,
+ [{description, "dctg_web"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'dctg_web_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
