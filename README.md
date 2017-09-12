@@ -16,4 +16,3 @@ then
 ```
 ./curl_command.sh
 ```
-# DCTG
